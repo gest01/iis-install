@@ -1,7 +1,5 @@
 Set-ExecutionPolicy Bypass -Scope Process
 
-# https://docs.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2#modules-in-iis-85
-
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
 
