@@ -12,6 +12,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpErrors
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-StaticContent
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpRedirect
 
+# Module is installed by default when the Web Server (IIS) role is installed.
+Disable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
+
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebDAV
 

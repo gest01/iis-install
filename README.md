@@ -12,4 +12,4 @@ Run the script (as administrator). If the script was executed successfuly, the f
 
 ![IIS Feature Modules](/images/modules.png)
 
-https://docs.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2#modules-in-iis-85
+Detailed information on the individual iis modules can be found on the corresponding MSDN site. https://docs.microsoft.com/en-us/iis/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2#modules-in-iis-85
