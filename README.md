@@ -8,7 +8,7 @@ The script supports Windows Server 2016 and Windows 10. Make sure the script run
 - Download and install the [ASP.NET Core/.NET Core: Runtime & Hosting Bundle](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 - **Reboot the machine ;)**
 
-Run the script (as administrator). If the script was executed successfuly, the following modules are installed
+[Run the script](https://github.com/gest01/iis-install/blob/master/iis-85-install.ps1) (as administrator). If the script was executed successfuly, the following modules are installed
 
 ![IIS Feature Modules](/images/modules.png)
 
