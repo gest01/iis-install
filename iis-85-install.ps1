@@ -70,7 +70,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-CGI
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-ServerSideIncludes
 
-
 ############################################################################################
 # Management Tools
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerManagementTools
@@ -84,7 +83,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementScriptingTools
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-WMICompatibility
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-LegacyScripts
 #Enable-WindowsOptionalFeature -Online -FeatureName IIS-LegacySnapIn
-
 
 ############################################################################################
 # FTP Server
