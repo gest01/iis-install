@@ -1,4 +1,9 @@
-Set-ExecutionPolicy Bypass -Scope Process
+
+############################################################################################
+# Windows Feature
+############################################################################################
+
+Install-WindowsFeature -name Telnet-Client
 
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
@@ -7,6 +12,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
 # Common HTTP Features
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-CommonHttpFeatures
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-DefaultDocument
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpErrors
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-StaticContent
@@ -22,6 +28,7 @@ Disable-WindowsOptionalFeature -Online -FeatureName IIS-DirectoryBrowsing
 # Health and Diagnostics
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-HealthAndDiagnostics
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpLogging
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-CustomLogging
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-LoggingLibraries
@@ -34,6 +41,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpTracing
 # Performance
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-Performance
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionStatic
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionDynamic
 
@@ -41,6 +49,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-HttpCompressionDynamic
 # Security
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-Security
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-RequestFiltering
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WindowsAuthentication
 
@@ -56,11 +65,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-WindowsAuthentication
 # Application Development
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationDevelopment
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ApplicationInit
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIExtensions
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ISAPIFilter
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45 -All
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-NetFxExtensibility45
-Enable-WindowsOptionalFeature -Online -FeatureName IIS-ASPNET45
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets
 
 #Enable-WindowsOptionalFeature -online -FeatureName NetFx4Extended-ASPNET45
@@ -74,6 +84,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebSockets
 # Management Tools
 # Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerManagementTools
 ############################################################################################
+
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementConsole
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-ManagementScriptingTools
 
