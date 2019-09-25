@@ -3,8 +3,6 @@
 # Windows Feature
 ############################################################################################
 
-Install-WindowsFeature -name Telnet-Client
-
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
 Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
 
