@@ -13,7 +13,7 @@ Open powershell as **Admin** and execute following command
 $ set-executionpolicy unrestricted
 ```
 
-[Run the script](https://github.com/gest01/iis-install/blob/master/iis-85-install.ps1) (as administrator). 
+[Run the script](https://github.com/gest01/iis-install/blob/master/iis-85-install.ps1) in the same shell
 
 - Download and install the [ASP.NET Core/.NET Core: Runtime & Hosting Bundle](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 - **Reboot the machine ;)**
