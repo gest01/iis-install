@@ -1,6 +1,6 @@
 # IIS feature installation script for ASP.NET and ASP.NET Core
 
-The script supports Windows Server 2016 and Windows 10. Make sure the script runs in an elevated PowerShell prompt (Run as administrator)
+The script supports Windows Server 2016/2019 and Windows 10. Make sure the script runs in an elevated PowerShell prompt (Run as administrator)
 
 ## Preconditions
 
